@@ -1,0 +1,24 @@
+{
+  "name": "e-library_management_app-backend",
+  "version": "1.0.0",
+  "description": "Develop the backend API for the E-Library Management Application using Node.js and Express. The API will handle user authentication, book management, and borrowing/returning operations. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15"
+  }
+}
